@@ -1,7 +1,7 @@
 {
     "main": {
         "prefix": "main",
-        "body": ["void main(String[] args) {", "\t$0", "}"],
+        "body": ["public static void main(String[] args) {", "\t$0", "}"],
         "description": "main method"
     },
     "class": {
