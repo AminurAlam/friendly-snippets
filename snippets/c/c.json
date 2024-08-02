@@ -34,27 +34,18 @@
     "main() template": {
         "prefix": "main",
         "body": [
-<<<<<<< HEAD
             "int main(int argc, char *argv[])",
             "{$0",
             "\treturn EXIT_SUCCESS;",
-=======
-            "int main() {",
-            "\t$0",
-            "\treturn 0;",
->>>>>>> 37636ee (refactor c snippets)
             "}"
         ],
         "description": "Standard main() snippet"
     },
-<<<<<<< HEAD
     "main(void) template": {
         "prefix": "mainn",
-        "body": ["int main(void)", "{$0", "\treturn EXIT_SUCCESS;", "}"],
+        "body": ["int main(void)", "{$0", "\treturn 0;", "}"],
         "description": "No-args main() snippet"
     },
-=======
->>>>>>> 37636ee (refactor c snippets)
     "#include <...>": {
         "prefix": "#inc",
         "body": ["#include <$0>"],
